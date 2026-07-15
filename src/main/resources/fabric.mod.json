@@ -3,15 +3,14 @@
 	"id": "uncraftablenetherwartblock",
 	"version": "${version}",
 	"name": "UncraftableNetherWartBlock",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Craft Nether Wart Blocks into 9 Nether Wart.",
 	"authors": [
-		"Me!"
+		"TBBTLY"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/GameBoi1232/Fabric-UncraftableNetherWartBlock"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/uncraftablenetherwartblock/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -22,9 +21,6 @@
 			"net.tbbtly.uncraftablenetherwartblock.UncraftableNetherWartBlockDataGenerator"
 		]
 	},
-	"mixins": [
-		"uncraftablenetherwartblock.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~26.2",
